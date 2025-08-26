@@ -4,12 +4,6 @@ A beautiful and responsive **Todo List Application** built with React and styled
 
 ---
 
-## 🚀 Demo
-
-<!-- Add live link here if deployed -->
-[View Live](#)
-
----
 
 ## 📸 Screenshots
 
