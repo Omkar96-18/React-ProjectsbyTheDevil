@@ -1,0 +1,140 @@
+/* Base styles */
+body {
+  margin: 0;
+  height: 100vh; /* Full screen height */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff8e7;
+  color: #333;
+
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  padding: 2rem;
+}
+
+/* Todo App Container */
+.todo-app {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+/* Heading */
+.todo-header {
+  text-align: center;
+  font-size: 2rem;
+  color: #FB8500;
+  margin-bottom: 1rem;
+}
+
+/* Todo Input */
+.todo-input {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.todo-input input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid #FFB703;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.todo-input button {
+  background-color: #FB8500;
+  color: white;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.todo-input button:hover {
+  background-color: #ff9d1e;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-buttons button {
+  padding: 0.5rem 1rem;
+  background-color: #FFB703;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.filter-buttons button:hover {
+  background-color: #fcbf49;
+}
+
+/* Todo List */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Todo Item */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff2cc;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  transition: background 0.3s;
+}
+
+.todo-item span {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.todo-item span.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-item button {
+  background-color: transparent;
+  border: none;
+  color: #d62828;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  color: #a10d0d;
+}
+
+@media (max-width: 600px) {
+  .todo-app {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .todo-input {
+    flex-direction: column;
+  }
+
+  .todo-input input,
+  .todo-input button {
+    width: 100%;
+  }
+}
