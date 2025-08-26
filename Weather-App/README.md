@@ -1,12 +1,51 @@
-# React + Vite
+# 🌦️ Weather Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive weather application built using **React** and the **OpenWeatherMap API**. Users can search for current weather details by city and country, view weather icons, temperatures, wind, humidity, and more — all styled with a beautiful blue-green UI theme.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+> Add screenshots of your app here (drag and drop images into GitHub after creating the README)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Home Page               | Weather Result            |
+|-------------------------|---------------------------|
+| ![Home](./images/home.png) | ![Weather](./images/weather.png) |
+
+---
+
+
+## 🧰 Features
+
+- 🌍 Search weather by city and country
+- 🌡️ Current temperature, feels-like, pressure, humidity, wind speed
+- 🧠 Dynamic weather icons and conditions
+- 🎨 Adaptive backgrounds based on weather (rain, clear, etc.)
+- 🖼️ App logo shown behind results
+- ⚡ Fast, mobile-friendly design with responsive layout
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **CSS3**
+- **OpenWeatherMap API**
+- **HTML5**
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/weather-app.git
+
+# 2. Navigate into the project
+cd weather-app
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start
