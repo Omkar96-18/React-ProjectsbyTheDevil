@@ -1,0 +1,102 @@
+/* Main container */
+.todo-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Input field */
+.todo-input {
+  width: calc(100% - 90px);
+  padding: 10px;
+  margin-right: 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.todo-input:focus {
+  border-color: #6c63ff;
+}
+
+/* Add button */
+.add-button {
+  padding: 10px 15px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #5848c2;
+}
+
+/* Task list */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Each task item */
+.task-item {
+  background-color: #f9f9f9;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Task text */
+.task-item span {
+  flex-grow: 1;
+  color: #202020;
+}
+
+/* Completed task style */
+.task-item .completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Buttons inside task */
+.task-item button {
+  margin-left: 10px;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+/* Complete button */
+.complete-button {
+  background-color: #17a2b8;
+}
+
+.complete-button:hover {
+  background-color: #138496;
+}
+
+/* Delete button */
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #b02a37;
+}

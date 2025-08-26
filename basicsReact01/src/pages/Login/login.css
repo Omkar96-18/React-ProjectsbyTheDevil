@@ -1,0 +1,77 @@
+/* Container */
+.login-container {
+  background: linear-gradient(to right, #f8f9fa, #e0eafc);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin: 50px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.login-label {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs */
+.login-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.login-input:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+/* Live input display */
+.live-text {
+  font-size: 13px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* Submit button */
+.login-button {
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #5848c2;
+}
+
+/* Message styling */
+.message {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message.success {
+  color: #28a745;
+}
+
+.message.error {
+  color: #dc3545;
+}

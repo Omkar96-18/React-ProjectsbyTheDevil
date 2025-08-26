@@ -31,6 +31,8 @@ A clean, responsive weather application built using **React** and the **OpenWeat
 - **CSS3**
 - **OpenWeatherMap API**
 - **HTML5**
+- **Axios**
+- **Redux toolkit**
 
 ---
 
