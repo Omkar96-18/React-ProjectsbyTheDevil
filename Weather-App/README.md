@@ -6,7 +6,6 @@ A clean, responsive weather application built using **React** and the **OpenWeat
 
 ## 📸 Screenshots
 
-> Add screenshots of your app here (drag and drop images into GitHub after creating the README)
 
 | Home Page               | Weather Result            |
 |-------------------------|---------------------------|
