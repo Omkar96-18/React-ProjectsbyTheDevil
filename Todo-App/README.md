@@ -14,9 +14,9 @@ A beautiful and responsive **Todo List Application** built with React and styled
 ## 📸 Screenshots
 
 <!-- Replace the links below with your actual image URLs -->
-| Home | Filtered View |
-|------|---------------|
-| ![Home Page](.image.png) |
+| Home |
+|------|
+| ![Home Page](./image.png) |
 
 
 ---
