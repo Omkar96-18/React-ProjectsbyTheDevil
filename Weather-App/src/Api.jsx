@@ -3,7 +3,6 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 
 
 const API_KEY = import.meta.env.VITE_API_KEY;
-// const API_KEY = '0275114a58962dc09bd02f4fc173ebeb'
 
 const api = axios.create({
     baseURL: `https://api.openweathermap.org/data/2.5`
