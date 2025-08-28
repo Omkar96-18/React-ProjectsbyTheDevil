@@ -127,7 +127,7 @@ p.error {
 }
 
 /* Dynamic Background Styles (based on weather type) */
-.weather-card.clear {
+.weather-card .clear {
   background-image: 
     linear-gradient(to top, #87ceeb, #ffffff),
     url('/logo.png');
@@ -137,7 +137,7 @@ p.error {
 }
 
 
-.weather-card.clouds {
+.weather-card .clouds {
   background-image: 
     linear-gradient(to top, #d3d3d3, #f0f0f0),
     url('/logo.png');
@@ -146,7 +146,7 @@ p.error {
   background-size: cover, 80px;
 }
 
-.weather-card.rain {
+.weather-card .rain {
   background-image: 
     linear-gradient(to top, #5f9ea0, #dcdcdc),
     url('/logo.png');
@@ -156,28 +156,28 @@ p.error {
 }
 
 
-.weather-card.drizzle {
+.weather-card .drizzle {
   background: linear-gradient(to top, #a4b0be, #dfe4ea);
 }
 
-.weather-card.thunderstorm {
+.weather-card .thunderstorm {
   background: linear-gradient(to top, #4b4b4b, #2f3542);
   color: #ffffff;
 }
 
-.weather-card.snow {
+.weather-card .snow {
   background: linear-gradient(to top, #dfe6e9, #ffffff);
 }
 
-.weather-card.mist,
-.weather-card.haze,
-.weather-card.fog {
+.weather-card .mist,
+.weather-card .haze,
+.weather-card .fog {
   background: linear-gradient(to top, #b2bec3, #dfe6e9);
 }
 
 /* Text contrast for dark backgrounds */
-.weather-card.thunderstorm p,
-.weather-card.thunderstorm h2 {
+.weather-card .thunderstorm p,
+.weather-card .thunderstorm h2 {
   color: #ffffff;
 }
 
